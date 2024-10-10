@@ -8,7 +8,7 @@ const header = document.querySelector('header')
 header.innerHTML = `  <div class="contact-details">
         <a href="tel:+8801728171519"><i class="fa-solid fa-phone"></i></a>
         <a href="mailto:sdc.contact24@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-        <a href="http://oursdc.com"><i class="fa-solid fa-globe"></i></a>
+        <a href="http://www.oursdc.com"><i class="fa-solid fa-globe"></i></a>
     </div>
     <div class="logo">
         <img src="../../images/SDC Logo Bangla2.png" alt="Not responding">
