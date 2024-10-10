@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
+
+
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalpurush', sans-serif;
+}
+
+header{
+    background: rgba(114, 221, 176, 0.397);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+a{
+    color: black;
+    transition: 0.6s;
+}
+a:hover{
+    color: cornflowerblue;
+    font-size: small;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header>div>img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+header>div>p{
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.contact-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-size: 30px;
+    padding-right: 30px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    background-color: #d3a7d475;
+    height: 100vh;
+}
+.container>h1{
+    font-size: 40px;
+    margin-bottom: 0;
+    
+}
+.upazila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+button{
+    border: none;
+    margin: 0 30px;
+    padding: 15px 50px;
+    font-size: 25px;
+    font-family: 'Kalpurush', sans-serif;
+    border-radius: 0 20px;
+    color: #fff;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: darkcyan;
+}
+.meherpur{
+    background-color: #1B1464;
+}
+
+.gangni{
+    background-color: #B53471;
+}
+.mujibnagar{
+    background-color: chartreuse;
+}
+
+/* Union */
+a{
+    text-decoration: none;
+}
+
+
+.parent>ul>a>li{
+    list-style: none;
+    color: #fff;   
+    margin-top: 15px;
+    width: 300px;
+    padding: 15px 50px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0 20px ;
+}
+
+
+li{
+    margin: 0 auto;
+}
+li:hover{
+    background-color: #fa8231;
+}
+.li-un1{
+    background-color: indigo;
+}
+.li-un2{
+    background-color: darkslategray;
+}
+
+.village{
+    margin-top: 10px;
+}
+
+.village>ul>a>li{
+    list-style: none;
+    color: #fff;   
+    margin-top: 15px;
+    width: 300px;
+    padding: 15px 50px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0 20px ;
+}
+
+
+li{
+    margin: 0 auto;
+}
+li:hover{
+    background-color: #fa8231;
+}
+.li1{
+    background-color: #B53471;
+}
+.li2{
+    background-color: darkcyan;
+}
+
+/* Modal */
+
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    height: 250px;
+    width: 450px;
+    background-color: rgb(44, 43, 21);
+    border-radius: 30px 0;
+    box-shadow: 0 0 20px 1px black;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.modal-open{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    
+}
+
+.modal-text{
+    margin-top: 20px;
+}
+.modal-container>div>h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+.modal-container>div>div>div>p{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.modal-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic{
+    margin-right: 35px;
+
+}
+.close{
+    font-size: 18px;
+    float: right;
+    margin: 10px 20px 0 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.all-village{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    
+
+}
+
+/* Person */
+
+.person-li{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.person-li>li{
+    font-family: 'Kalpurush', sans-serif;
+    padding: 10px 40px;
+    background-color: rgb(141, 223, 47);
+    border-radius: 0 10px ;
+}
+
+.person-li>li:hover{
+    background-color: rgb(120, 179, 52);
+}
+
+@media only screen and (max-width: 600px){
+    .logo>p{
+        font-size: 15px;
+        margin: 0;
+    }
+    .contact-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        font-size: 15px;
+        
+    }
+
+    .social-icon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        font-size: 15px;
+    }
+
+    .logo>img{
+        width: 60px;
+        height: 60px;
+    }
+    header{
+       max-width: 600px;
+    }
+    .container>h1{
+       font-size: 25px;
+    }
+
+    body{
+        max-width: 600px;
+    }
+    .upazila>a>button{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .all-village{
+        max-width: 600px;
+    }
+  }
