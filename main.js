@@ -16,7 +16,7 @@
 // })
 const title = document.querySelector('title')
 title.innerText = 'SDC - Database'
-const header = document.querySelector('.header')
+const header = document.querySelector('header')
 
 /**htmL*/
 
