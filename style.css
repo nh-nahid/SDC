@@ -81,6 +81,9 @@ header>div>p{
     background-color: #d3a7d475;
     height: 100vh;
 }
+.container>p{
+    display: none;
+}
 .container>h1{
     font-size: 40px;
     margin-bottom: 0;
@@ -124,6 +127,9 @@ a{
     text-decoration: none;
 }
 
+.parent>ul{
+    padding: 0;
+}
 
 .parent>ul>a>li{
     list-style: none;
@@ -252,6 +258,7 @@ li:hover{
     flex-wrap: wrap;
     gap: 20px;
     cursor: pointer;
+    padding: 0;
 }
 
 .person-li>li{
@@ -310,4 +317,15 @@ li:hover{
     .all-village{
         max-width: 600px;
     }
+    .logo>p{
+        display: none;
+    }
+    .container>p{
+        display: block;
+        font-weight: bold;
+    }
+    .modal-container{
+        height: 250px;
+        width: 300px;
+    }    
   }
