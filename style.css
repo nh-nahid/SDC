@@ -113,13 +113,16 @@ button:hover{
 }
 .meherpur{
     background-color: #1B1464;
+    border-radius: 10px;
 }
 
 .gangni{
     background-color: #B53471;
+    border-radius: 10px;
 }
 .mujibnagar{
-    background-color: chartreuse;
+    background-color: rgb(0, 255, 85);
+    border-radius: 10px;
 }
 
 /* Union */
@@ -303,6 +306,9 @@ li:hover{
     header{
        max-width: 600px;
     }
+    .container{
+        max-width: 600px;
+    } 
     .container>h1{
        font-size: 25px;
     }
@@ -323,9 +329,15 @@ li:hover{
     .container>p{
         display: block;
         font-weight: bold;
+        background-color: rgb(241, 149, 82);
+        padding: 8px 20px;
+        border-radius: 25px;
     }
     .modal-container{
         height: 250px;
         width: 300px;
-    }    
+    }
+    .person-li{
+        padding: 10px;
+    }
   }
