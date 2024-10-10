@@ -1,19 +1,4 @@
-// const li = document.querySelector('.rofik')
-// const x = document.querySelector('.fa-x')
-// const modal = document.querySelector('#modal')
 
-
-
-//   li.addEventListener('click', function(){
-
-//        modal.classList.add('modal-open')
-//     })
-
-
-
-// x.addEventListener('click', function(){
-//    modal.classList.remove('modal-open')
-// })
 const title = document.querySelector('title')
 title.innerText = 'SDC - Database'
 const header = document.querySelector('header')
