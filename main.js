@@ -16,7 +16,7 @@
 // })
 const title = document.querySelector('title')
 title.innerText = 'SDC - Database'
-const header = document.querySelector('header')
+const header = document.querySelector('.header')
 
 /**htmL*/
 
@@ -27,7 +27,6 @@ header.innerHTML = `  <div class="contact-details">
     </div>
     <div class="logo">
         <img src="../../images/SDC Logo Bangla2.png" alt="Not responding">
-        <img src="./images/SDC Logo Bangla2.png" alt="Not responding">
         <p>সাপ্লাই এন্ড ডিস্ট্রিবিউশন কর্পোরেশন </p>
     </div>
     <div class="social-icon">
